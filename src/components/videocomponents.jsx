@@ -51,7 +51,7 @@ const videoArea = () => {
   
   return (
     <div>
-       <div className=' owncsroll overflow-y-scroll grid grid-cols-3  mt-7 h-[77vh]'>
+       <div className='   owncsroll overflow-y-scroll grid  sm:grid-cols-3  mt-7 h-[77vh]'>
 
        {item.map((item)=>(
           <Link key={item.id.videoId} to={`/watch?v=${item.id.videoId}`}> <VideoCart  item={item}/></Link>

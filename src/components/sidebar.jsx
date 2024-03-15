@@ -34,7 +34,7 @@ const Sidebar = () => {
     ]
   return (
      <>
-    <div className={`mt-16  ${memuval?'overflow-y-scroll pr-16':'flex  flex-col   pt-20 '} h-[89vh] `}>
+    <div className={` hidden sm:block mt-16  ${memuval?'overflow-y-scroll pr-16':'flex  flex-col   pt-20 '} h-[89vh] `}>
         {
             yname.map((item,index)=>{
                 return(

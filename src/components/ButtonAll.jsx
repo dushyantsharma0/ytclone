@@ -26,7 +26,7 @@ const ButtonAll = () => {
        
         {btnname.map((item,index)=>(
             <button onClick={()=>getbtnvalue(item)} key={index} className=" 
-              whitespace-nowrap bg-[#ccc] hover:bg-[#ddd]  text-black font-bold p-2 mt-2 w-fit  rounded">{item}</button>
+              flex   items-center  h-6 sm:h-8 whitespace-nowrap bg-[#ccc] hover:bg-[#ddd]  text-black font-bold p-2 mt-2 w-fit  rounded">{item}</button>
         ))}
        
     </div>

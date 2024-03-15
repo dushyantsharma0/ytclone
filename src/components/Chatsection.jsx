@@ -33,7 +33,7 @@ const getfacknames = () =>{
     }
   return (
     <>
-     <div className=' ml-4 mt-20 '>
+     <div className=' hidden  sm:block sm:ml-4 sm:mt-20 '>
         <div className=' rounded-xl relative   w-[23vw] h-[80vh] bg-[#ddd] border-2  border-[#000000]  '>
           
           <div  className='flex  justify-between w-full h-fit   border-b border-[#000000] p-4'>

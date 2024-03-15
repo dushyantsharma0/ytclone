@@ -1,3 +1,19 @@
 .owncsroll::-webkit-scrollbar {
  display: none;
 }
+
+.logo{
+    background:  linear-gradient(to right, red, green);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+     text-shadow: 20px 0 60px blue;
+     animation: anime 1s linear infinite;
+
+}
+
+@keyframes anime {
+    100%{
+        text-shadow: 20px 0 60px rgb(13, 255, 0)
+    }
+}

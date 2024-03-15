@@ -25,13 +25,13 @@ await axios.get(`https://youtube.googleapis.com/youtube/v3/channels?part=snippet
     }, [])
 
   return (
-   <div className='m-1  mx-6  ' >
-    <img className={`rounded-xl ${memuval?'w-80':'w-90'}`} src={index.item.snippet.thumbnails.high.url} alt="" />
+   <div className=' sm:m-1 sm:mx-6 m-1 ' >
+    <img className={`   w-full rounded-xl  sm:${memuval?'w-80':'w-90'}`} src={index.item.snippet.thumbnails.high.url} alt="" />
    <div className='flex items-center gap-3'>
-   <Avatar className='ml-1' src={channellogo} size="40" round={true} />
+   <Avatar className= ' sm:ml-1' src={channellogo} size="40" round={true} />
 
      <div className='pt-3 '> 
-     <h1 className=' font-bold w-60'> {index.item.snippet.title}</h1>
+     <h1 className='   font-bold sm:w-60'> {index.item.snippet.title}</h1>
 <p>{index.item.snippet.channelTitle}</p>
      </div>
    </div>
