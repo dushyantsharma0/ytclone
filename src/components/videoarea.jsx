@@ -30,9 +30,9 @@ const Videoare = () => {
     // console.log( 'this is ',videoDetail)
   return (
   <>
-    <div className=' ml-2 w-[100wh] mt-[5rem] sm:ml-4'>
+    <div className=' m-1 w-[100wh] mt-[5rem] sm:ml-4'>
         <div>
-        <iframe className='  h-60 w-[100wh] sm:w-full sm:h-[450px]'
+        <iframe className='  h-60 w-full sm:w-full sm:h-[450px]'
  
   src={`https://www.youtube.com/embed/${url}?&autoplay=1`}
    title="YouTube video player"
@@ -46,7 +46,7 @@ const Videoare = () => {
             videoDetail?.snippet?
             
            <div>
-             <h1 className=' w-[350px] font-bold '> {videoDetail?.snippet?.title}</h1>
+             <h1 className=' w-full [350px] font-bold '> {videoDetail?.snippet?.title}</h1>
            <div className='sm:flex  justify-between items-center'>
            <div className='flex items-center sm:mt-2 sm:gap-3'>
             <Avatar className='mr-3 sm:mr-0' src={videoDetail?.snippet?.thumbnails?.high?.url} size="40" round={true} />
